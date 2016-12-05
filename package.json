@@ -1,0 +1,26 @@
+{
+  "name": "bep9-metadata-dl",
+  "version": "0.1.0",
+  "description": "BEP-9 Metadata Downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "DHT",
+    "BitTorrent",
+    "magnet",
+    "infohash",
+    "metadata",
+    "swarm",
+    "BEP-9"
+  ],
+  "author": "Hong Yan",
+  "license": "MIT",
+  "dependencies": {
+    "bencode": "^0.10.0",
+    "bittorrent-protocol": "^2.1.6",
+    "torrent-discovery": "^8.1.1",
+    "ut_metadata": "^3.0.8"
+  }
+}
