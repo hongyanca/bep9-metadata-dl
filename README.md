@@ -14,7 +14,7 @@ This module uses [bittorrent-protocol](https://github.com/feross/bittorrent-prot
 ## install
 
 ```
-npm install
+npm install bep9-metadata-dl
 ```
 
 ## API

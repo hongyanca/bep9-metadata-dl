@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node test/index.js"
   },
+  "repository" :{ 
+    "type" : "git", 
+    "url" : "https://github.com/homeryan/bep9-metadata-dl.git"
+  },
   "keywords": [
     "DHT",
     "BitTorrent",
