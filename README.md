@@ -22,6 +22,15 @@ npm install bep9-metadata-dl
 ### `fetchMetadata(infohash, [opts], [callbackFn])`
 ### `fetchMetadata.fromPeer(infohash, peerAddress, [opts], [callbackFn])`
 
+Optional options are:
+```js
+{ 
+  maxConns: 10,           // Maximum connections to peers, (default=5) 
+  fetchTimeout: 30000,    // A timer scheduled to keep looking for metadata (default=20000)
+  socketTimeout: 5000     // Sets the socket to timeout after inactivity (default=5000)
+}
+```
+
 ### Example:
 ```js
 const fetchMetadata = require('bep9-metadata-dl');
