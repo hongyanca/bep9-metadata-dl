@@ -5,11 +5,10 @@
 This module uses [bittorrent-protocol](https://github.com/feross/bittorrent-protocol), [ut_metadata](https://github.com/feross/ut_metadata) and
 [torrent-discovery](https://github.com/feross/torrent-discovery) modules of [WebTorrent](https://github.com/feross/webtorrent) to download the info-dictionary part of a .torrent file using infohash of magnet links only.
 
-## features
+## Features
 
-- simple API
-- find peers from the DHT network
-- support callbacks and Promise
+- Simple API with callback and Promise interface
+- Find peers from the DHT network
 
 ## install
 
@@ -94,4 +93,4 @@ fetchMetadata.fromPeer(INFO_HASH, '88.166.72.111:5', { timeout: 5000 })
 
 ## License
 
-MIT. Copyright (c) [Hong Yan](https://github.com/homeryan).
+MIT © [Hong Yan](https://github.com/homeryan).

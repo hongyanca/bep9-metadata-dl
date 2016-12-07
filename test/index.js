@@ -21,20 +21,20 @@ fetchFromSwarm.then(metadata => {
  process.exit(1);
 });
 
-const fetchFromPeer = fetchMetadata.fromPeer(INFO_HASH, '88.166.72.111:5'
-  , {timeout: 5000}
-  , (err, metadata) => {
-    if (err) {
-      console.log(err);
-      process.exit(1);
-    }
-    console.log(`[Callback] ${metadata.name.toString('utf-8')}`);
-  }
-  );
-
-fetchFromPeer.then(metadata => {
-  console.log(`[Promise] ${metadata.name.toString('utf-8')}`);
-}).catch(err => {
- console.log(err);
- process.exit(1);
-});
+// const fetchFromPeer = fetchMetadata.fromPeer(INFO_HASH, '88.166.72.111:5'
+//   , {timeout: 5000}
+//   , (err, metadata) => {
+//     if (err) {
+//       console.log(err);
+//       process.exit(1);
+//     }
+//     console.log(`[Callback] ${metadata.name.toString('utf-8')}`);
+//   }
+//   );
+//
+// fetchFromPeer.then(metadata => {
+//   console.log(`[Promise] ${metadata.name.toString('utf-8')}`);
+// }).catch(err => {
+//  console.log(err);
+//  process.exit(1);
+// });
