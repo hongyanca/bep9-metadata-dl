@@ -16,7 +16,7 @@ fetchMetadata(INFO_HASH, { maxConns: 10, fetchTimeout: 30000, socketTimeout: 500
   .then(metadata => {
     console.log(`[Promise] ${metadata.info.name.toString('utf-8')}`);
   }).catch(err => {
-  console.log(err);
+    console.log(err);
 });
 
 // fetchMetadata.fromPeer(INFO_HASH, 'IP_ADDRESS:PORT', {timeout: 5000},
