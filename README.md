@@ -43,7 +43,7 @@ fetchMetadata(INFO_HASH, { maxConns: 10, fetchTimeout: 30000, socketTimeout: 500
     console.log(err);
     return;
   }
-  console.log(`[Callback] ${metadata.name.toString('utf-8')}`);
+  console.log(`[Callback] ${metadata.info.name.toString('utf-8')}`);
 });
 ```
 ### Or Promise based:
@@ -55,7 +55,7 @@ const INFO_HASH = '90289fd34dfc1cf8f316a268add8354c85334458';
 
 fetchMetadata(INFO_HASH, { maxConns: 10, fetchTimeout: 30000, socketTimeout: 5000 })
 .then(metadata => {
-  console.log(`[Promise] ${metadata.name.toString('utf-8')}`);
+  console.log(`[Promise] ${metadata.info.name.toString('utf-8')}`);
 }).catch(err => {
   console.log(err);
 });
@@ -73,7 +73,7 @@ fetchMetadata.fromPeer(INFO_HASH, '88.166.72.111:5', { timeout: 5000 },
     console.log(err);
     return;
   }
-  console.log(`[Callback] ${metadata.name.toString('utf-8')}`);
+  console.log(`[Callback] ${metadata.info.name.toString('utf-8')}`);
 });
 ```
 ### Download directly from a peer, Promise based:
@@ -85,7 +85,7 @@ const INFO_HASH = '90289fd34dfc1cf8f316a268add8354c85334458';
 
 fetchMetadata.fromPeer(INFO_HASH, '88.166.72.111:5', { timeout: 5000 })
 .then(metadata => {
-  console.log(`[Promise] ${metadata.name.toString('utf-8')}`);
+  console.log(`[Promise] ${metadata.info.name.toString('utf-8')}`);
 }).catch(err => {
   console.log(err);
 });
