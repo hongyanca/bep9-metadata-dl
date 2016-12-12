@@ -14,7 +14,7 @@ bitfield@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/bitfield/-/bitfield-1.1.2.tgz#a5477f00e33f2a76edc209aaf26bf09394a378cf"
 
-bittorrent-dht@^7.0.0:
+bittorrent-dht@^7.0.0, bittorrent-dht@^7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/bittorrent-dht/-/bittorrent-dht-7.4.0.tgz#aa50552099ac4f2ba1545f89dbb2e0b5af7a84e5"
   dependencies:
