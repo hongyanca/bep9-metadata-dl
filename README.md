@@ -82,7 +82,7 @@ fetchMetadata(INFO_HASH, { maxConns: 10, fetchTimeout: 30000, socketTimeout: 500
 });
 
 // Re-use DHT instance.
-fetchMetadata(INFO_HASH, { maxConns: 10, fetchTimeout: 30000, socketTimeout: 5000, dht })
+fetchMetadata(INFO_HASH2, { maxConns: 10, fetchTimeout: 30000, socketTimeout: 5000, dht })
 .then(metadata => {
   console.log(`[Promise] ${metadata.info.name.toString('utf-8')}`);
 }).catch(err => {

@@ -1,6 +1,6 @@
 {
   "name": "bep9-metadata-dl",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "BEP-9 Metadata Downloader",
   "main": "index.js",
   "scripts": {
