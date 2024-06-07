@@ -22,10 +22,10 @@
   "author": "Hong Yan",
   "license": "MIT",
   "dependencies": {
-    "bencode": "^0.10.0",
-    "bittorrent-dht": "^7.4.0",
-    "bittorrent-protocol": "^2.1.6",
-    "torrent-discovery": "^8.1.1",
-    "ut_metadata": "^3.0.8"
+    "bencode": "^4.0.0",
+    "bittorrent-dht": "^11.0.6",
+    "bittorrent-protocol": "^4.1.12",
+    "torrent-discovery": "^11.0.6",
+    "ut_metadata": "^4.0.3"
   }
 }
